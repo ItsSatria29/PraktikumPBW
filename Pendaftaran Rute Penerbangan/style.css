@@ -1,0 +1,73 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f2f6ff;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    max-width: 600px;
+    background: #fff;
+    padding: 25px;
+    margin: auto;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #3c4a6b;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+select, input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    background-color: #3c6e71;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #284b63;
+}
+
+.info {
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #1b4965;
+}
+
+.kembali {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #1b4965;
+    text-decoration: none;
+}
+
+.kembali:hover {
+    text-decoration: underline;
+}
